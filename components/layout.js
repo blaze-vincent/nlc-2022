@@ -17,6 +17,7 @@ export default function Layout({children}){
       bg-ironore
       text-slate-300
       min-h-screen
+      pt-20
       "
     >{children}</main>
 

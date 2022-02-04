@@ -1,11 +1,12 @@
 export default function Banner(){
   return <div
-    className="w-full relative z-0 after:block after:content-[''] after:w-full after:h-full after:bg-blue-200 after:left-0 after:top-0 after:absolute after:z-10"
+    className="w-full h-max relative"
   >
     <img 
       src="/images/pollution.webp" 
       alt='A forest coated in smog, with factories spewing emissions visible on the horizon' 
-      title='Factories emitting more carbon dioxide than thousands of people can hope to offset' 
+      title='Factories emitting more carbon dioxide than thousands of people can hope to offset'
+      className="w-full h-auto min-h-[20rem] object-cover"
     />
     <div
       className="w-full h-full flex flex-row items-center justify-center px-4 absolute left-0 top-0"
@@ -18,7 +19,7 @@ export default function Banner(){
         >Reducing Your Carbon Footprint</h1>
         <h2
           className="text-xl"
-        >As if that&apos;s Going to do Anything</h2>
+        >As if it&apos;s Your Problem</h2>
       </div>
     </div>
   </div>
