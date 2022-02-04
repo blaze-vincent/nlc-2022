@@ -1,8 +1,10 @@
-import CommandLine from "../components/terminal/commandLine";
+import Banner from "../components/banner";
 
 export default function Home() {
-  return <>
-    <p>page content populating main tag in layout</p>
-    <CommandLine />
-    </>
+  return <div
+    className="w-screen max-w-screen-xl m-auto p-4"
+  >
+    <Banner />
+
+  </div>
 }

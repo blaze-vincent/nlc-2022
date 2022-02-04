@@ -1,7 +1,13 @@
 export default function Header(){
-  return (<div>
-    <h1 className="text-blue-700 text-2xl font-bold">
-      header tag content
-    </h1>
+  return (<div
+    className="bg-ironore fixed flex flex-row w-full"
+  >
+    <div />
+    <div
+      className="w-screen max-w-screen-xl m-auto p-4"
+    >
+      <img src='/brand/bpa-extended.svg' alt='BPA logo featuring the acronym on the left and the extended "Business Professionals of America text on the right"' title='BPA logo'/>
+    </div>
+    <div />
   </div>)
 }

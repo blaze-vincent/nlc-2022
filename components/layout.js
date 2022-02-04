@@ -14,11 +14,12 @@ export default function Layout({children}){
 
     <main
       className="
-      bg-slate-900
+      bg-ironore
       text-slate-300
+      min-h-screen
       "
     >{children}</main>
 
     <Footer />
-    </>)
+  </>)
 }
