@@ -1,5 +1,5 @@
 export default function Header(){
-  return (<div
+  return (<header
     className="bg-ironore fixed flex flex-row w-full z-50"
   >
     <div
@@ -7,5 +7,5 @@ export default function Header(){
     >
       <img src='/brand/bpa-extended.svg' alt='BPA logo featuring the acronym on the left and the extended "Business Professionals of America text on the right"' title='BPA logo'/>
     </div>
-  </div>)
+  </header>)
 }

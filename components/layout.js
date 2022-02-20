@@ -5,7 +5,7 @@ import Footer from './footer'
 export default function Layout({children}){
   return (<>
     <Head>
-      <title>nextjs w/ tailwindcss</title>
+      <title>Reducing Your Carbon Footprint</title>
       <meta name="description" content="bv nextjs template with tailwindcss" />
       <link rel="icon" href="/favicon.ico" />
       <link
