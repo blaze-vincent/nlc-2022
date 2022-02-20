@@ -7,7 +7,8 @@ export default function Layout({children}){
     <Head>
       <title>Reducing Your Carbon Footprint</title>
       <meta name="description" content="bv nextjs template with tailwindcss" />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+      <link rel="icon" type="image/png" href="/favicon.png" />
       <link
         href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Syne:wght@700&display=swap"
         rel="stylesheet"
