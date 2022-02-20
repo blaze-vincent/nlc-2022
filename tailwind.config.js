@@ -12,6 +12,7 @@ module.exports = {
       lime: colors.lime,
       orange: colors.orange,
       white: colors.white,
+      violet: colors.violet,
       "ironore": "#0E0A01"
     },
     extend: {},

@@ -8,6 +8,10 @@ export default function Layout({children}){
       <title>nextjs w/ tailwindcss</title>
       <meta name="description" content="bv nextjs template with tailwindcss" />
       <link rel="icon" href="/favicon.ico" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Syne:wght@700&display=swap"
+        rel="stylesheet"
+      />
     </Head>
 
     <Header />
