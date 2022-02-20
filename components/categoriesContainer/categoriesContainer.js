@@ -56,14 +56,14 @@ export default function CategoriesContainer(){
   }
 
   return <div
-    className="flex flex-col gap-4"
+    className="flex flex-col gap-4 max-w-full"
   >
     <div
-      className="flex md:flex-row flex-col justify-between w-full max-w-screen-xl m-auto gap-4"
+      className="flex md:flex-row flex-col justify-between max-w-full m-auto gap-4"
     >
-      <Category onClick={_ => selectCategory('food')} imgUrl='/images/food.png' color={categoryColors['food']} href='/' title='Food and Water' />
-      <Category onClick={_ => selectCategory('recycle')} imgUrl='/images/recycle.png' color={categoryColors['recycle']} href='/' title='Recycle and Renew' />
-      <Category onClick={_ => selectCategory('reduce')} imgUrl='/images/reduce.png' color={categoryColors['reduce']} href='/' title='Reduce and Minimize' />
+      <Category onClick={_ => selectCategory('food')} category='food' selectedCategory={selectedCategory} imgUrl='/images/food.png' color={categoryColors['food']} href='/' title='Food and Water' />
+      <Category onClick={_ => selectCategory('recycle')} category='recycle' selectedCategory={selectedCategory} imgUrl='/images/recycle.png' color={categoryColors['recycle']} href='/' title='Recycle and Renew' />
+      <Category onClick={_ => selectCategory('reduce')} category='reduce' selectedCategory={selectedCategory} imgUrl='/images/reduce.png' color={categoryColors['reduce']} href='/' title='Reduce and Minimize' />
 
     </div>
     

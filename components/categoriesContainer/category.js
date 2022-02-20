@@ -1,4 +1,4 @@
-export default function Category({color = 'lime-200', href='https://example.com', title='Test Title', imgUrl, onClick, selected = false}){
+export default function Category({color = 'lime-200', category='recycle', selectedCategory='', href='https://example.com', title='Test Title', imgUrl, onClick, selected = false}){
 
   //this probably seems dumb but tailwind classes are not generated at runtime so dynamic classes only show if theyre already in your cache
   const colors = {
@@ -24,7 +24,7 @@ export default function Category({color = 'lime-200', href='https://example.com'
 
   return <button 
       href={href} 
-      className={`w-max m-auto max-w-full h-auto relative border-2 border-solid ${colors[color].hoverBorder} ${selected && colors[color].selectedBorder}`}
+      className={`w-max m-auto max-w-full h-auto relative border-2 border-solid ${colors[color].hoverBorder} ${category === selectedCategory && colors[color].selectedBorder}`}
       onClick={onClick}
     >
     <img 

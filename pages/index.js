@@ -22,16 +22,8 @@ export default function Home() {
         <h4
           className="text-lg"
         >You Engineered the Perfect Lifestyle to Reduce Your Carbon Emissions to Zero. And You Convinced Everyone on Earth to Do the Same. This is Realistic.</h4>
+        <HappyEarths />
       </hgroup>
-      <HappyEarths />
-      
-    </Section>
-
-    <Section>
-      <h3
-        className="max-w-screen-md m-auto text-2xl"
-      >Here&apos;s How You Did It</h3>
-      <CategoriesContainer />
       
     </Section>
 
@@ -42,5 +34,14 @@ export default function Home() {
         <Message time='4:36 PM'>did u just personally save my kingdom???</Message>
       </MessagesFromGod>
     </Section>
+
+    <Section>
+      <h3
+        className="max-w-screen-md m-auto text-2xl"
+      >Here&apos;s How You Did It</h3>
+      <CategoriesContainer />
+      
+    </Section>
+
   </article>
 }
